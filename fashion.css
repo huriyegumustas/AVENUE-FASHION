@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* topbar*/
+.topbar{
+    font-size: .7rem;
+    padding-bottom:0rem ;
+    padding-top: 0rem;
+}
+.nav-link:hover{
+    background-color: teal;
+    color: mintcream;
+}
+/* navbar*/
+.navbar1{
+    color: black;
+    padding-bottom: 1.3rem;
+}
+.navbar1 li{
+    padding-right: 20px;
+    
+}
+.dropdown-item:hover{
+    color: rgb(60, 221, 221);
+}
+/* picture*/
+.welcome img{
+    width: 100%;
+}
+.lookbook{
+    height: 20rem;
+    background-image: url("img/photo0.png");
+    background-size: 100% 200%;
+    opacity: 0.6;
+ 
+}
+.lookbook h3{
+    padding-top: 5rem;
+    padding-left: 40%;
+    font-size: 3rem;
+}
+.lookbook h4{
+    
+    padding-left: 35%;
+    font-size: 2rem;
+}
+.product{
+    height: 20rem;
+    background-image: url("img/photo0.png");
+    background-size: 100% 200%;
+    opacity: 0.6;
+ 
+}
+.product h3{
+    padding-top: 5rem;
+    padding-left: 40%;
+    font-size: 3rem;
+}
+.product h4{
+    
+    padding-left: 20%;
+    font-size: 2rem;
+}
+
+/* form*/
+
+.btn-sign{
+   color: mintcream;
+    background-color: lightseagreen;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: teal;
+}
+.fa-arrow-right{
+    color: teal;
+}
+.btn-create{
+    border: 2px solid;
+}
+p{
+    font-size: .8rem;
+}
+/* footer*/
+footer{
+    background-color: rgb(245, 243, 238);
+    padding-top: 1.3rem;
+    padding-bottom: 5rem;
+}
+footer li{
+    list-style-type:none;
+}
+li a{
+    color: black;
+    font-size: .8rem;
+}
+h5{
+    font-size: 1rem;
+}
+
+.award-box{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    right: 1rem;
+    
+    
+}
+.social{
+    background-color: teal;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.social a{
+    font-size: 2.5rem;
+    padding: 1.3rem;
+    }
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-pinterest{
+    color: white;
+}
+.copy{
+    background-color:  rgb(32, 32, 32);;
+    color: white;
+    width: 100%;
+}
+
+/* tab*/
+.card-img-top{
+    width: 100%;
+    height: 21rem;
+    padding-bottom: 1.5rem;
+    
+}
+.card-img-overlay .replace{
+    width: 70%;
+    float:right;
+    margin-top: -.9rem;
+    height: 100%;
+    
+}
+.card{
+    border-style: none;
+}
+.card-img-overlay img{
+    width: 31%;
+    float: left;
+}
+.card-title1 ,  .card-text1{
+    text-align: left;
+    padding-top: 1rem;
+    width: 50%;
+}
+.card-title2 ,  .card-text2{
+    text-align: left;
+    width: 40%;
+    
+}
+.win{
+    font-size: 3rem;
+    margin-top: -10rem;
+    color: rgb(5, 182, 182);
+}
+.win b{
+    font-size: 7rem;
+}
+
+.card-title ,  .card-text{
+    text-align: right;
+    padding-top: 1rem;
+   
+}
+.btn1 , .btn3{
+    float: right;
+}
+.btn1{
+    background-color: teal;
+    color: white;
+}
+.btn2 , .btn3{
+    border: 2px solid;
+}
+.container{
+    padding-top: 1.5rem;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.img-overlay .icon{
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card:hover .img-overlay{
+    
+    opacity: 0.7;
+ }
+.fa-chevron-right , .fa-chevron-left{
+    color: black;
+    font-size: 2.5rem;
+}
+.star{
+    padding-right: 1rem;
+    color: gray;
+    font-size: .9rem;
+}
+
+.fa-star{
+    color: rgb(223, 223, 82);
+}
+.soc{
+    color: gray;
+    padding-right: .8rem;
+    
+}
+.number{
+    font-size: 2rem;
+    color: gray;
+}
+.green{
+    color: lightseagreen;
+}
+.select{
+   width: 30%;
+}
+.select1{
+    width: 12%;
+ }
+
+.btn-black{
+    background-color: black;
+    color: white;
+    width: 33%;
+    padding: .7rem;
+    margin-right: 2rem;
+}
+.btn-black:hover{
+    background-color: lightcoral;
+}
+.btn-white{
+    border: 2px solid;
+    width: 37%;
+    padding: .7rem;
+}
+.btn-white:hover{
+    background-color: brown;
+}
+
+@media(max-width:576px){
+    /* topbar*/
+.topbar{
+    font-size: 0rem;
+    
+}
+    .social{
+        background-color: teal;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        right: 1rem;
+        
+    }
+    .win{
+        font-size: 1rem;
+        margin-top: -13rem;
+        color: rgb(5, 182, 182);
+    }
+    .win b{
+        font-size: 5rem;
+    }
+    
+    .lookbook h3{
+        padding-top: 5rem;
+        padding-left: 26%;
+        font-size: 2rem;
+    }
+    .lookbook h4{
+        
+        padding-left: 23%;
+        font-size: 1rem;
+    }
+    .product h3{
+        padding-top: 5rem;
+        padding-left: 26%;
+        font-size: 2rem;
+    }
+    .product h4{
+        
+        padding-left: 10%;
+        font-size: 1rem;
+    }
+}
+.tab2{
+    font-size: 1.3rem;
+    }
+.tab2:hover{
+    background-color: rgb(189, 152, 152);
+    color: white;
+}
+
+
+@media(max-width:768px){
+    .lookbook h3{
+        padding-top: 5rem;
+        padding-left: 26%;
+        font-size: 2.3rem;
+    }
+    .lookbook h4{
+        
+        padding-left: 23%;
+        font-size: 1.3rem;
+    }
+    .win{
+        font-size: 1rem;
+        margin-top: -13rem;
+        color: rgb(5, 182, 182);
+    }
+    .win b{
+        font-size: 5rem;
+    }
+    .social{
+        background-color: teal;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        right: 1rem;
+        
+    }
+    .product h3{
+        padding-top: 5rem;
+        padding-left: 26%;
+        font-size: 2.3rem;
+    }
+    .product h4{
+        
+        padding-left: 8%;
+        font-size: 1.3rem;
+    }
+}
